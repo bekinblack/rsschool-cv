@@ -145,7 +145,8 @@ body {
     
 }
 
-.link {
+.link, link:visited {
     color: #6CD0DB;
     text-decoration: none;
 }
+
