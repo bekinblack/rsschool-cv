@@ -144,3 +144,8 @@ body {
     background-repeat: no-repeat;
     
 }
+
+.link {
+    color: #6CD0DB;
+    text-decoration: none;
+}
