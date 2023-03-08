@@ -7,6 +7,107 @@
         <title>Document</title>
     </head>
     <body>
-        Hello, world!
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a> </li>
+                        <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a> </li>
+                        <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a> </li>
+                        <li class="nav-item"> <a href="#code" class="nav-link">Code</a> </li>
+                        <li class="nav-item"> <a href="#experience" class="nav-link">Experience</a> </li>
+                        <li class="nav-item"> <a href="#education" class="nav-link">Education</a> </li>
+                        <li class="nav-item"> <a href="#languages" class="nav-link">Languages</a> </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <section class="section" id="profile">
+                    <img src="assets/img/avatar.jpg" alt="avatar" id="avatar">
+                    <h1 class="section-title">Alibek Apanasov</h1>
+
+                    <h2 class="section-subtitle">Studying web development at RS School</h2>
+
+                </section>
+
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item">E-mail: <a class="link"
+                                href="mailto:aapanasov@gmail.com">aapanasov@gmail.com</a></li>
+                        <li class="section-item">Telegram: <a class="link" href="http://t.me/bekinblack"
+                                target="_blank">bekinblack</a>
+                        </li>
+                        <li class="section-item">Discord: BekInBlack#5028</li>
+                        <li class="section-item">Phone: +7 929 228-6572</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="section-item">
+                        I am a beginner developer with an interest in web and mobile app development. I want to develop
+                        apps
+                        using JS / React and Dart / Flutter.
+                    </p>
+                </section>
+
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">HTML &amp; CSS</li>
+                        <li class="section-item">JavaScript</li>
+                        <li class="section-item">Dart / Flutter</li>
+                        <li class="section-item">Git / Github</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre>
+
+                    <code class="section-item">
+function boolToWord( bool ) {
+    return bool ? "Yes": "No"
+}
+                    </code>
+                </pre>
+                </section>
+
+                <section class="section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <p class="section-item">
+                        IT Department Manager at VimpelCom, Nalchik Branch.
+                    </p>
+                </section>
+
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-item">
+                        Kabardino-Balkarian State University, Faculty of Applied Mathematics.
+                    </p>
+                </section>
+
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">English: level A2</li>
+                        <li class="section-item">Russian</li>
+                        <li class="section-item">Circassian</li>
+
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div>© 2022 <a href="https://github.com/aapanasov" class="nav-link" target="_blank">aapanasov</a></div>
+                <a href="https://rs.school/js/" class="rsschool" target="_blank" title="rsschool"></a>
+            </div>
+        </footer>
     </body>
 </html>
